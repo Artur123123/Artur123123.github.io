@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<link href="sistaprojectjau.css" rel="stylesheet" type="text/css">
+<title>League of legends</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+<div id="storbox">
+       
+        <header>
+        
+        	
+                        
+                <ul>
+                <img src="logotransparent.png" id="logo" alt="bild på logon" width="100" height="95"> 
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#news">About</a></li>
+                  <li><a href="#news">Divisions</a></li>
+                  <li class="dropdown">
+                    <a href="javascript:void(2)" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content">
+                      <a href="#">E-Sport</a>
+                      <a href="#">Pro teams</a>
+                    </div>
+                  </li>
+                </ul>
+        
+        </header>
+        
+        <article id="startsida">
+        
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="poppytillslide.jpg">
+              <div class="text">Champion</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="Jankos.jpg">
+              <div class="text">Bästa spelare i League of legends: Jankos</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="cuttedtillslide.jpg">
+              <div class="text">Championship series</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+        
+        </article>
+        
+        <aside id="startsidaaside">
+        <h1 id="h1tillaside">Hej och välkommen</h1>
+        <p id="ptillaside">Det här är min sida om League of Legends. Du kan föra dig vidare genom att klicka på länkarna ovanför eller att kolla på en liten slideshow till vänster</p>
+        
+        </aside>
+        <div id="utfyllnad"></div>
+        
+        
+        <footer>
+        
+      <img src="A_riot_of_games.png" id="logofooter" alt="Bild på logon" width="170" height="95">
+      
+    	  <p id="footerkontakt"> Kontakt <br> 0735555555 </p>
+    	  <p id="pfooter">   
+         
+         © 2017 Riot Games, Inc. All rights reserved. Riot Games, League of Legends and PvP.net are trademarks, <br>
+          services marks, or registered trademarks of Riot Games, 	
+          Inc. 
+         
+         </p>
+         
+         
+        
+        </footer>
+    
+    
+</div>
+
+</body>
+</html>

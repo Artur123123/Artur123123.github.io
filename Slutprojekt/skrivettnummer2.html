@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Siffra eller Error</title>
+</head>
+
+<body>
+
+
+<p><b id="boldStuff"></b></p>
+<input type="button" onClick="changeText()" value="Mata in tal"/>
+
+
+
+<script type="text/javascript">
+
+
+	 
+	 function changeText(){
+	 
+
+var minText=prompt("Skriv här","nummer"); 
+
+
+if(isNaN(minText) == false)
+{
+	
+document.getElementById("boldStuff").innerHTML = minText;
+
+}
+
+else
+{
+	
+	alert("Error, du måste mata in en siffra");	
+	changeText(); 
+	
+}
+
+	 }
+</script>
+
+	
+</body>
+</html>
