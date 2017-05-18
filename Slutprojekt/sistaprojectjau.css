@@ -395,7 +395,15 @@ color:#FFF;
 
 @media screen and (max-width: 980px) {
 
-	
+	header{
+background-color:#999;
+height:10%;
+width:50%;
+margin-bottom:0;
+font-size:24px;
+
+
+}
 }
 	
 	
