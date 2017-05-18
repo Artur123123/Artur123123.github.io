@@ -307,6 +307,24 @@ h1{
   to {opacity: 1}
 }
 
+@media screen and (max-width: 980px) {
+
+	header{
+background-color:#999;
+height:10%;
+width:105%;
+margin-bottom:0;
+font-size:24px;
+}
+	
+	li {
+    float: left;
+	margin-left:50px;
+}
+}
+	
+
+
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
@@ -391,25 +409,5 @@ color:#FFF;
 .ex1 img:hover {
     margin-top: 1px;
 }
-
-
-@media screen and (max-width: 980px) {
-
-	header{
-background-color:#999;
-height:10%;
-width:105%;
-margin-bottom:0;
-font-size:24px;
-
-
-}
-}
-	
-	
-
-
-
-
 
 
