@@ -312,7 +312,7 @@ h1{
 	header{
 background-color:#999;
 height:10%;
-width:105%;
+width:100%;
 margin-bottom:0;
 font-size:24px;
 }
@@ -328,7 +328,7 @@ article#home{
 	
 	li {
     float: left;
-	margin-right:50px;
+	margin-right:0;
 }
 	
 	#abouttitel{
