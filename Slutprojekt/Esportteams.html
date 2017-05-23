@@ -2,11 +2,45 @@
 <html>
 <head>
 
+
 <meta charset="utf-8"> 
 <link href="sistaprojectjau.css" rel="stylesheet" type="text/css">
 <title>League of legends</title>
 
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript">
+var image_track = "a";
+function change(){
+ var image = document.getElementById("social");
+ if(image_track == "a"){
+  image.src = "nateams.jpg";
+  image_track = "b";
+  
+ }else if (image_track == "b"){
+  image.src = "eubg.jpg";
+  image_track = "c";
+
+ }
+ else if (image_track == "c"){
+  image.src = "EUteams.jpg";
+  image_track = "d";
+ }
+ else if (image_track == "d"){
+  image.src = "lckbg.jpg";
+  image_track = "e";
+ }
+ else if (image_track == "e"){
+  image.src = "lckteam.jpg";
+  image_track = "f";
+ }
+ else {
+  image.src = "nabg.jpg";
+  image_track = "a";
+ }
+}
+
+
+</script>
+
 </head>
 
 <body id="lager">
@@ -34,23 +68,19 @@
                 </ul>
         
         </header>
-        <p id="kilckapåbilder2">Click on the picutres to gain informations about the divisions! :D</p>
+        <p id="kilckapåbilder2"></p>
         
         
-	
+	<p id="eposrttext">Klicka på bilden för att se lag. <br><br> NA = North America <br>EU = Europe<br>LCK = Koreans</p>
         
         <article id="home2">
         
 		
- 	
+ 	 <img src="nabg.jpg" alt="random bullshit" id="social" onclick="change();">
+
+   
       
-  
-    <div class="ex1">
-        
-        <img src="CHALLENGJURBANNERCUTTED.jpg">
-        <img src="CHALLENGJURBANNERCUTTED.jpg">
-        <img src="CHALLENGJURBANNERCUTTED.jpg">
-    </div>
+
     
 
  
@@ -60,7 +90,7 @@
         <aside>
         </aside>
         
-        <footer id="divisions2">
+        <footer id="divisions3">
         
       <img src="A_riot_of_games.png" id="logofooter" alt="Bild på logon" width="170" height="95">
       
