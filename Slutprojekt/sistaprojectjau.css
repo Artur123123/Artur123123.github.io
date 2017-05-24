@@ -481,14 +481,20 @@ font-size:23px;}
 	
 #divisions2{
 	
-		clear:both;
-	background-color:#000;
+clear:both;
+background-color:#000;
 height:10%;
 width:100%;
 margin-top:225px;
 overflow:hidden;
 color:#FFF;
 	}
+	
+#groupmedbilder{
+margin-top:60px;
+margin-left:8%;
+overflow:hidden;
+font-size:18px;}
 	
 }
 	
