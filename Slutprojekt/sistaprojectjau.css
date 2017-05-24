@@ -444,13 +444,13 @@ font-size:23px;}
 #div1{
 	display:none;
 	color:#FFF;
-	margin-left:0;
+	margin-left:6%;
 	overflow:hidden;
 	font-size:18px;
 	}
 #div2{
 	display:none;
-	
+	margin-left:6%;
 	color:#FFF;
 	overflow:hidden;
 	font-size:18px;}
@@ -462,19 +462,19 @@ font-size:23px;}
 	font-size:18px;}
 #div4{
 	display:none;
-	
+	margin-left:6%;
 	color:#FFF;
 	overflow:hidden;
 	font-size:18px;}
 #div5{
 	display:none;
-	
+	margin-left:6%;
 	color:#FFF;
 	overflow:hidden;
 	font-size:18px;}
 #div6{
 	display:none;
-	
+	margin-left:6%;
 	color:#FFF;
 	overflow:hidden;
 	font-size:18px;}
