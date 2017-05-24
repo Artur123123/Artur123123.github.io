@@ -307,48 +307,7 @@ h1{
   to {opacity: 1}
 }
 
-@media screen and (max-width: 980px) {
 
-	header{
-background-color:#999;
-height:10%;
-width:100%;
-margin-bottom:0;
-font-size:24px;
-}
-	
-article#home{
-	background-color:rgba(0,0,0,0.75);
-	width:700px;
-	height:78%;
-	margin-left:32%;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	
-}
-	
-	li {
-    float: left;
-	margin-right:0;
-}
-	
-	#abouttitel{
-	text-align:center;
-	color:#E2D636;
-font-size:23px;}
-	
-#aboutinfolol{
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:16px;
-	color:#FFF;}
-	
-}
-	
-
-
-
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 
 #div1{
 	display:none;
@@ -447,6 +406,49 @@ width:100%;
 margin-top:30%;
 color:#FFF;
 	}
+
+@media screen and (max-width: 980px) {
+
+	header{
+background-color:#999;
+height:10%;
+width:100%;
+margin-bottom:0;
+font-size:24px;
+}
+	
+article#home{
+	background-color:rgba(0,0,0,0.75);
+	width:700px;
+	height:78%;
+	margin-left:0%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+}
+	
+	li {
+    float: left;
+	margin-right:0;
+}
+	
+	#abouttitel{
+	text-align:center;
+	color:#E2D636;
+font-size:23px;}
+	
+#aboutinfolol{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;}
+	
+}
+	
+
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 
 
 
