@@ -428,7 +428,7 @@ font-family:Georgia, "Times New Roman", Times, serif;
 	
 li {
 float: left;
-margin-right:5%;
+margin-left:10%;
 }
 	
 #abouttitel{
@@ -491,7 +491,7 @@ color:#FFF;
 	}
 	
 #groupmedbilder{
-margin-top:80px;
+margin-top:60px;
 margin-left:8%;
 overflow:hidden;
 font-size:18px;}
