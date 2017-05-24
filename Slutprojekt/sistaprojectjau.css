@@ -407,7 +407,7 @@ margin-top:30%;
 color:#FFF;
 	}
 
-@media screen and (max-width: 100px) {
+@media screen and (min-width: 200px) and (max-width: 350px){
 
 	header{
 background-color:#999;
