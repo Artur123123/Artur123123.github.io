@@ -421,7 +421,7 @@ article#home{
 	background-color:rgba(0,0,0,0.75);
 	width:700px;
 	height:78%;
-	margin-left:0%;
+	margin-right:5%;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	
 }
@@ -456,7 +456,7 @@ font-size:23px;}
 	font-size:18px;}
 #div3{
 	display:none;
-	
+	margin-left:6%;
 	color:#FFF;
 	overflow:hidden;
 	font-size:18px;}
