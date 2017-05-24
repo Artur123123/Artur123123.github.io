@@ -488,7 +488,6 @@ width:100%;
 margin-top:150px;
 overflow:hidden;
 color:#FFF;
-font-size:10px;
 	}
 	
 #groupmedbilder{
@@ -510,6 +509,11 @@ margin-left:17%;
 font-size:24px;
 overflow:hidden;
 }
+#pfooter{
+margin-top:20px;
+margin-right:160px;
+text-align:center;
+font-size:12px;}
 	
 }
 	
