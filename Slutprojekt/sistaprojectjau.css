@@ -496,6 +496,14 @@ margin-left:8%;
 overflow:hidden;
 font-size:18px;}
 	
+li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 20px 80px;
+text-decoration: none;
+}
+	
 }
 	
 
