@@ -492,7 +492,7 @@ clear:both;
 background-color:#000;
 height:10%;
 width:100%;
-margin-bottom:0;
+margin-bottom:10%;
 overflow:hidden;
 color:#FFF;
 	}
@@ -622,7 +622,7 @@ opacity:0;
 	#divisions {
 	background-color:#000;
 	width:100%;
-	height:80%;
+	height:100%;
 	position:absolute;
 }
 
