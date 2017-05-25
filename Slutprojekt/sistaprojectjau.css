@@ -548,12 +548,11 @@ font-family:Verdana, Geneva, sans-serif;
 	font-size:32px;
 	
 }
-	#abouttitel2{
-	text-align:center;
+#abouttitel2{
+text-align:center;
 color:#fff;
 font-size:28px;
-		margin-top:4%
-
+overflow:hidden;
 }	
 	#aboutinfolol2{
 font-family:Arial, Helvetica, sans-serif;
@@ -561,7 +560,7 @@ font-size:21px;
 color:#FFF;
 display:none;
 margin-left:3%;
-	margin-top:3%}
+overflow:hidden;}
 	
 #divisions3{
 	
