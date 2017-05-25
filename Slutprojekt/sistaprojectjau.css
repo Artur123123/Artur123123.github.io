@@ -725,6 +725,14 @@ article#startsida{
 width:100%;
 height:14%;
 float:left;
+	}
+aside#startsidaaside{ background-color:#000;
+height:500px;
+width:500px;
+margin-top:140px;
+margin-left:10%;
+float:left;
+}
 	
 }
 
