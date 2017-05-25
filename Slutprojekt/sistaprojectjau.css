@@ -417,7 +417,7 @@ margin-bottom:0;
 font-size:24px;
 }
 	
-article#home{
+article#home2{
 background-color:rgba(0,0,0,0.75);
 width:900px;
 height:1100px;
@@ -604,6 +604,15 @@ color:#FFF;
 
 #social:active {
 opacity:0;
+}
+	
+	article#home2{
+	background-color:rgba(0,0,0,0.75);
+	width:700px;
+	height:78%;
+	margin-left:32%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
 }
 
 }
