@@ -107,15 +107,6 @@ color:#fff;
 font-size:23px;
 
 }	
-#abouttitel2:hover{
-text-align:center;
-color:#E2D636;
-font-size:23px;
-text-decoration:underline;
-cursor:pointer;
-}
-	
-
 	
 #aboutinfolol{
 	font-family:Arial, Helvetica, sans-serif;
@@ -411,7 +402,7 @@ color:#FFF;
 
 @media screen and (min-width: 980px){
 	
-	#abouttitel2:hover{
+#abouttitel2:hover{
 text-align:center;
 color:#E2D636;
 font-size:23px;
@@ -573,6 +564,7 @@ font-family:Arial, Helvetica, sans-serif;
 font-size:21px;
 color:#FFF;
 margin-left:3%;
+display:none;
 }
 	
 #divisions3{
