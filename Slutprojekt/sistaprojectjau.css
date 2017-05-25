@@ -421,7 +421,7 @@ article#home{
 background-color:rgba(0,0,0,0.75);
 width:800px;
 height:1100px;
-margin-right:980px;
+margin-left:0;
 font-family:Georgia, "Times New Roman", Times, serif;
 	
 }
