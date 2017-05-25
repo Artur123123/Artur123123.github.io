@@ -113,7 +113,7 @@ color:#E2D636;
 font-size:23px;
 text-decoration:underline;
 cursor:pointer;
-;}
+}
 	
 
 	
@@ -564,6 +564,11 @@ margin-left:3%;
 overflow:hidden;}
 	
 #abouttitel2:hover{
+text-align:center;
+color:#E2D636;
+font-size:23px;
+text-decoration:underline;
+cursor:pointer;
 }
 	
 #divisions3{
