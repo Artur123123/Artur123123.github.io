@@ -561,8 +561,23 @@ display:none;
 margin-left:3%;
 	margin-top:3%}
 	
+#divisions3{
 	
+clear:both;
+background-color:#000;
+height:10%;
+width:100%;
+margin-top:30%;
+color:#FFF;
+	}
 	
+	#lager{
+	background-color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	margin:0;
+	
+	}
 }
 
 	
