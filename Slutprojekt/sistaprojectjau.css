@@ -578,12 +578,7 @@ color:#FFF;
 	margin:0;
 	
 	}
-	#divisions {
-	background-color:#000;
-	width:100%;
-	height:100%;
-	position:absolute;
-}
+	
 #eposrttext{
 
 	font-size:26px;
@@ -609,7 +604,7 @@ opacity:0;
 	article#home3{
 	background-color:rgba(0,0,0,0.75);
 	width:700px;
-	height:0%;
+	height:35%;
 	margin-right:20%;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	
