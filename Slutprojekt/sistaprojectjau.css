@@ -587,12 +587,13 @@ color:#FFF;
 #eposrttext{
 
 	font-size:26px;
-	margin-left: 5%;
+	margin-left: 25%;
 	color:#FFFF00;
+	margin-top:5%
 }
 	#social {
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-left: 25%;
+  margin-top: 15%;
    position:absolute;
   
   -webkit-transition: opacity 0.2s ease-in-out;
