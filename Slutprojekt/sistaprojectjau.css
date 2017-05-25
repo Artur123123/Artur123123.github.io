@@ -410,6 +410,18 @@ color:#FFF;
 	}
 
 @media screen and (max-width: 980px){
+	
+	#abouttitel2:hover{
+text-align:center;
+color:#E2D636;
+font-size:23px;
+text-decoration:underline;
+cursor:pointer;
+}
+	
+}
+
+@media screen and (max-width: 980px){
 
 	header{
 background-color:#999;
@@ -564,11 +576,7 @@ display:none;
 margin-left:3%;
 }
 	
-#abouttitel2:hover{
-}
-	
 #divisions3{
-	
 clear:both;
 background-color:#000;
 height:10%;
