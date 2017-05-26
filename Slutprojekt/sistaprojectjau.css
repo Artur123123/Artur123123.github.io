@@ -157,9 +157,6 @@ li {
     float: left;
 	margin-left:180px;
 }
-li img{
-margin-right:180px;
-}
 
 
 li a, .dropbtn {
@@ -748,12 +745,6 @@ float:left;
 margin-top:20px;
 	
 }
-li img{
-margin-left:30px;
-overflow:hidden;
-float:left;
-margin-top:20px;	
-	}
 	
 }
 
