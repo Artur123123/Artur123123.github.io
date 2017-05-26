@@ -157,9 +157,6 @@ li {
     float: left;
 	margin-left:180px;
 }
-li img {
-padding-right:180px;
-}
 
 li a, .dropbtn {
     display: inline-block;
@@ -747,8 +744,7 @@ float:left;
 margin-top:20px;
 	
 }
-li img {
-}
+
 
 	
 }
