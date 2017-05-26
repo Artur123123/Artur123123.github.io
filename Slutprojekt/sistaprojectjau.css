@@ -662,7 +662,7 @@ article#startsida{
   width: auto;
   padding: 40px;
   margin-top: -22px;
-  color: white;
+  background-color:#fff;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -742,20 +742,6 @@ overflow:hidden;
 float:left;
 margin-top:20px;
 	
-}
-	
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  background-color:#fff;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
 }
 	
 }
