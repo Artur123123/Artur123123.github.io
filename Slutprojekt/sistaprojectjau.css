@@ -157,6 +157,9 @@ li {
     float: left;
 	margin-left:180px;
 }
+ul li img {
+margin-right:180px;
+}
 
 li a, .dropbtn {
     display: inline-block;
