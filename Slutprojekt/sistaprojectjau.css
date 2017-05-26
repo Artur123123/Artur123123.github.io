@@ -34,11 +34,11 @@ body{
 }
 
 header{
-background-color:#999;
-height:10%;
-width:100%;
-margin-bottom:0;
-font-size:24px;
+	background-color:#999;
+	height:10%;
+	width:100%;
+	margin-bottom:0;
+	font-size:24px;
 
 
 }
@@ -68,11 +68,11 @@ article#home{
 section{}
 
 aside#startsidaaside{ background-color:#000;
-height:500px;
-width:500px;
-margin-top:140px;
-margin-left:10%;
-float:left;
+	height:500px;
+	width:500px;
+	margin-top:140px;
+	margin-left:10%;
+	float:left;
 }
 p#ptillaside{
 	color:#FFF;
@@ -90,11 +90,11 @@ h1#h1tillaside{
 footer{
 	clear:both;
 	background-color:#000;
-height:10%;
-width:100%;
-margin-top:0px;
-overflow:hidden;
-color:#FFF;
+	height:10%;
+	width:100%;
+	margin-top:0px;
+	overflow:hidden;
+	color:#FFF;
 
 	}	
 #abouttitel{
@@ -102,9 +102,9 @@ color:#FFF;
 	color:#E2D636;
 	font-size:23px;}
 #abouttitel2{
-text-align:center;
-color:#fff;
-font-size:23px;
+	text-align:center;
+	color:#fff;
+	font-size:23px;
 
 
 }	
@@ -115,10 +115,10 @@ font-size:23px;
 	color:#FFF;}
 	
 #aboutinfolol2{
-font-family:Arial, Helvetica, sans-serif;
-font-size:16px;
-color:#FFF;
-display:none;}
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	display:none;}
 
 Img#logo{
 	margin-left:30px;
@@ -129,22 +129,22 @@ Img#logo{
 	}
 img#logofooter{float:left;
 	
-	}
+}
 	
 
 	
-	#pfooter{
-		margin-top:20px;
-		margin-right:160px;
-		text-align:center;
-		font-size:18px;}
+#pfooter{
+	margin-top:20px;
+	margin-right:160px;
+	text-align:center;
+	font-size:18px;}
 		
-	#footerkontakt{
-		margin-left:100px;
-		float:right;
-		font-size:14px;
-		font-family:Verdana, Geneva, sans-serif;
-		}
+#footerkontakt{
+	margin-left:100px;
+	float:right;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+}
 	
 ul {
     list-style-type: none;
@@ -156,7 +156,7 @@ ul {
 
 li {
     float: left;
-	margin-left:130px;
+    margin-left:130px;
 }
 
 
@@ -202,10 +202,8 @@ li.dropdown {
 }
 
 h1{
-	color:#FFF;
-	
-	
-	}
+color:#FFF;
+}
 
 /*slider*/	
  *{box-sizing:border-box}
@@ -352,32 +350,32 @@ h1{
 	}
 #divisions2{
 	
-		clear:both;
+	clear:both;
 	background-color:#000;
-height:10%;
-width:100%;
-margin-top:225px;
-overflow:hidden;
-color:#FFF;
-	}
+	height:10%;
+	width:100%;
+	margin-top:225px;
+	overflow:hidden;
+	color:#FFF;
+}
 	
 	
 	
 
 #social {
-  margin-left: 800px;
-  margin-top: 5%;
-   position:absolute;
+      margin-left: 800px;
+      margin-top: 5%;
+      position:absolute;
   
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
-  cursor:pointer;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    cursor:pointer;
 }
 
 #social:active {
-opacity:0;
+	opacity:0;
 }
 
 #eposrttext{
@@ -392,21 +390,21 @@ opacity:0;
 
 #divisions3{
 	
-clear:both;
-background-color:#000;
-height:10%;
-width:100%;
-margin-top:31%;
-color:#FFF;
+	clear:both;
+	background-color:#000;
+	height:10%;
+	width:100%;
+	margin-top:31%;
+	color:#FFF;
 	}
 @media screen and (min-width: 981px){
 	
-#abouttitel2:hover{
-text-align:center;
-color:#E2D636;
-font-size:23px;
-text-decoration:underline;
-cursor:pointer;
+	#abouttitel2:hover{
+	text-align:center;
+	color:#E2D636;
+	font-size:23px;
+	text-decoration:underline;
+	cursor:pointer;
 }
 	
 }
@@ -415,37 +413,37 @@ cursor:pointer;
 @media screen and (max-width: 980px){
 
 	header{
-background-color:#999;
-height:10%;
-width:100%;
-margin-bottom:0;
-font-size:24px;
+	background-color:#999;
+	height:10%;
+	width:100%;
+	margin-bottom:0;
+	font-size:24px;
 }
 	
 article#home{
-background-color:rgba(0,0,0,0.75);
-width:900px;
-height:1100px;
-margin-left:2%;
-font-family:Georgia, "Times New Roman", Times, serif;
+	background-color:rgba(0,0,0,0.75);
+	width:900px;
+	height:1100px;
+	margin-left:2%;
+	font-family:Georgia, "Times New Roman", Times, serif;
 	
 }
 	
 li {
-float: left;
-margin-left:0;
+	float: left;
+	margin-left:0;
 }
 	
 #abouttitel{
-text-align:center;
-color:#E2D636;
-font-size:30px;
+	text-align:center;
+	color:#E2D636;
+	font-size:30px;
 }
 	
 #aboutinfolol{
-font-family:Arial, Helvetica, sans-serif;
-font-size:28px;
-color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	color:#FFF;
 }
 	
 #div1{
@@ -493,47 +491,47 @@ color:#FFF;
 	
 #divisions2{
 	
-clear:both;
-background-color:#000;
-height:10%;
-width:100%;
-margin-top:9%;
-overflow:hidden;
-color:#FFF;
+	clear:both;
+	background-color:#000;
+	height:10%;
+	width:100%;
+	margin-top:9%;
+	overflow:hidden;
+	color:#FFF;
 	}
 	
 #groupmedbilder{
-margin-top:60px;
-margin-left:8%;
-overflow:hidden;
-font-size:30px;
+	margin-top:60px;
+	margin-left:8%;
+	overflow:hidden;
+	font-size:30px;
 }
 	
 li a, .dropbtn {
-display: inline-block;
-color: white;
-text-align: center;
-padding: 61px 63px;
-text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 61px 63px;
+	text-decoration: none;
 }
 #kilckapåbilder{
-color:#FF0;
-margin-left:12%;
-font-size:24px;
-overflow:hidden;
+	color:#FF0;
+	margin-left:12%;
+	font-size:24px;
+	overflow:hidden;
 }
 #pfooter{
-margin-top:20px;
-margin-right:160px;
-text-align:center;
-font-size:12px;
+	margin-top:20px;
+	margin-right:160px;
+	text-align:center;
+	font-size:12px;
 }
 
 #footerkontakt{
-margin-left:100px;
-float:right;
-font-size:20px;
-font-family:Verdana, Geneva, sans-serif;
+	margin-left:100px;
+	float:right;
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
 }
 
 #aboutinfolol{
@@ -551,28 +549,28 @@ font-family:Verdana, Geneva, sans-serif;
 	font-size:32px;
 	
 }
-#abouttitel2{
-text-align:center;
-color:#E2D636;
-font-size:28px;
-margin-bottom:20px;
+	#abouttitel2{
+	text-align:center;
+	color:#E2D636;
+	font-size:28px;
+	margin-bottom:20px;
 
 }
 	
 #aboutinfolol2{
-font-family:Arial, Helvetica, sans-serif;
-font-size:21px;
-color:#FFF;
-margin-left:3%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#FFF;
+	margin-left:3%;
 }
 	
 #divisions3{
-clear:both;
-background-color:#000;
-height:10%;
-width:100%;
-margin-top:30%;
-color:#FFF;
+	clear:both;
+	background-color:#000;
+	height:10%;
+	width:100%;
+	margin-top:30%;
+	color:#FFF;
 	}
 	
 	#lager{
@@ -693,7 +691,7 @@ article#startsida{
 }
 
 
-.numbertext {
+ .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -726,26 +724,23 @@ article#startsida{
 	
 }
 #utfyllnad{
-width:100%;
-height:28%;
-float:left;
+	width:100%;
+	height:28%;
+	float:left;
 	}
 aside#startsidaaside{ background-color:#000;
-height:500px;
-width:300px;
-margin-top:250px;
-margin-right:0;
-float:left;
+	height:500px;
+	width:300px;
+	margin-top:250px;
+	margin-right:0;
+	float:left;
 }
 Img#logo{
-margin-left:30px;
-overflow:hidden;
-float:left;
-margin-top:20px;
+	margin-left:30px;
+	overflow:hidden;
+	float:left;
+	margin-top:20px;
 	
-}
-#text1{
-font-size:30px;	
 }	
 }
 
