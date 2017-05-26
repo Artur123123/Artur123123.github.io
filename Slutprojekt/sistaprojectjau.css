@@ -158,9 +158,8 @@ li {
 	margin-left:180px;
 }
 
-li#logo {
-    float: left;
-	margin-left:180px;
+ul li img {
+padding-left: 180px;
 }
 
 li a, .dropbtn {
